@@ -1,4 +1,4 @@
-package cakeShop.demo;
+package cakeshop.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
