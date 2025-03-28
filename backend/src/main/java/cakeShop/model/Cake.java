@@ -3,7 +3,7 @@ package cakeshop.model;
 import jakarta.persistence.*;
 
 @Entity  // Marks this class as a database entity (table)
-@Table(name = "cakes") // Optional: Explicitly naming the table
+@Table(name = "cakes") // Explicitly naming the table
 public class Cake {
 
     @Id  // Marks this field as the Primary Key
