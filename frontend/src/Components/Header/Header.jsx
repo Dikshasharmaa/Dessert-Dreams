@@ -20,7 +20,7 @@ export default function Header() {
         </ul>
       </nav>
       <div className="logo">
-        <h1>Sweet <span>Cakes</span></h1>
+        <h1> Dessert <span>Dreams</span></h1>
         <p>Awesome Bakery Theme</p>
       </div>
     </header>
