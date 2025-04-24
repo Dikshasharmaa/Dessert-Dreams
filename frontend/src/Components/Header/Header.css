@@ -1,51 +1,62 @@
-.top-bar {
-    background-color: #742424;
-    color: white;
+.header {
+    background-color: #b36b6b;
+    padding: 10px 0;
     display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-  }
-  
-  .auth-links button {
-    background: none;
-    border: none;
-    color: white;
-    margin-left: 10px;
-    cursor: pointer;
+    justify-content: center;
   }
   
   .navbar {
-    background-color: #f7b6b6;
-    text-align: center;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    margin: 0;
-    padding: 15px 0;
+    width: 90%;
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    font-weight: bold;
-    color: #742424;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Georgia', serif;
   }
   
-  .logo {
+  .nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-weight: bold;
+  }
+  
+  .logo-card {
+    background-color: #f5b6c4;
+    padding: 10px 30px;
+    border-radius: 25px;
     text-align: center;
-    padding: 20px;
-    color: #b14646;
-    font-family: 'Cursive', sans-serif;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #ffedf0;
   }
   
-  .logo h1 {
-    font-size: 36px;
+  .logo-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 5px #b30047;
   }
   
-  .logo span {
+  .logo-text span {
+    font-style: italic;
+    color: #fff0f5;
+  }
+  
+  .tagline {
+    font-size: 12px;
+    color: #440022;
+  }
+  
+  .nav-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .cart {
     font-weight: bold;
   }
   
-  .logo p {
-    font-size: 12px;
-    margin-top: 5px;
+  .auth-links {
+    cursor: pointer;
   }

@@ -3,26 +3,23 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <header>
-      <div className="top-bar">
-        <div className="cart">Cart: $</div>
-        <div className="auth-links">
-          <button>Login</button>
-          <button>Register</button>
-        </div>
-      </div>
+    <header className="header">
       <nav className="navbar">
-        <ul>
+        <ul className="nav-links">
           <li>HOME</li>
           <li>PRODUCTS</li>
           <li>ABOUT</li>
           <li>CONTACT</li>
         </ul>
+        <div className="logo-card">
+          <h1 className="logo-text">Sweet <span>Cakes</span></h1>
+          <p className="tagline">Awesome Bakery Theme</p>
+        </div>
+        <div className="nav-right">
+          <span className="cart">🛍️ Cart $</span>
+          <span className="auth-links">Login | Register</span>
+        </div>
       </nav>
-      <div className="logo">
-        <h1> Dessert <span>Dreams</span></h1>
-        <p>Awesome Bakery Theme</p>
-      </div>
     </header>
   );
 }
