@@ -12,8 +12,8 @@ export default function Header() {
           <li>CONTACT</li>
         </ul>
         <div className="logo-card">
-          <h1 className="logo-text">Sweet <span>Cakes</span></h1>
-          <p className="tagline">Awesome Bakery Theme</p>
+          <h1 className="logo-text">Dessert <span>Dreams</span></h1>
+          <p className="tagline">Sweet Cakes</p>
         </div>
         <div className="nav-right">
           <span className="cart">🛍️ Cart $</span>

@@ -1,29 +1,38 @@
 .hero {
-    background-color: #fbdada;
+    background-color: #f8c8dc;
     padding: 40px 20px;
     text-align: center;
-    color: #742424;
+    font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    position: relative;
   }
   
-  .hero h2 {
-    font-size: 24px;
+  .hero-content h2 {
+    color: #832232;
+    font-size: 28px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   
-  .hero p {
+  .hero-content p {
     font-size: 16px;
-    margin-bottom: 20px;
+    color: #5a1a1a;
   }
   
-  .hero img {
-    width: 250px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  .hero-img {
+    width: 200px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .hero-img:hover {
+    transform: scale(1.05);
   }
   
   .caption {
-    font-size: 20px;
-    margin-top: 15px;
+    margin-top: 10px;
+    color: #4e1a1a;
+    font-size: 18px;
     font-weight: 500;
   }

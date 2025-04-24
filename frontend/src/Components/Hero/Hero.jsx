@@ -5,9 +5,13 @@ import cupcake from "../../assets/cupcake.png";
 export default function Hero() {
   return (
     <section className="hero">
-      <h2>ARE YOU LOOKING FOR SWEET, STYLISH AND DELICIOUS BIRTHDAY CAKES?</h2>
-      <p>DON'T WORRY, WE CAN HELP YOU! CHECK OUR BEST CAKE COLLECTION.</p>
-      <img src={cupcake} alt="Cupcake" />
+      <div className="hero-content">
+        <h2>
+          ARE YOU LOOKING FOR SWEET, STYLISH AND <br /> DELICIOUS BIRTHDAY CAKES?
+        </h2>
+        <p>DON'T WORRY, WE CAN HELP YOU! CHECK OUR BEST CAKE SELECTION.</p>
+      </div>
+      <img className="hero-img" src={cupcake} alt="Cupcake" />
       <p className="caption">This is the home page</p>
     </section>
   );
