@@ -1,0 +1,51 @@
+.top-bar {
+    background-color: #742424;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .auth-links button {
+    background: none;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    background-color: #f7b6b6;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-weight: bold;
+    color: #742424;
+  }
+  
+  .logo {
+    text-align: center;
+    padding: 20px;
+    color: #b14646;
+    font-family: 'Cursive', sans-serif;
+  }
+  
+  .logo h1 {
+    font-size: 36px;
+  }
+  
+  .logo span {
+    font-weight: bold;
+  }
+  
+  .logo p {
+    font-size: 12px;
+    margin-top: 5px;
+  }
