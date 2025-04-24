@@ -1,12 +1,13 @@
 .header {
     background-color: #b36b6b;
+    width: 100%;
     padding: 10px 0;
     display: flex;
     justify-content: center;
   }
   
   .navbar {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
