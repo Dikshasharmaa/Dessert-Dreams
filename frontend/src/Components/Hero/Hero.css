@@ -8,22 +8,40 @@
     position: relative;
   }
   
-  .hero-content h2 {
-    color: #832232;
-    font-size: 28px;
+  .hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d28a97;
+    border-radius: 8px;
+    padding: 40px 60px;
+    margin: 0 auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-text {
+    flex: 1;
+    color: white;
+    padding-right: 40px;
+  }
+  
+  .hero-text h1 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
     font-weight: bold;
-    margin-bottom: 10px;
   }
   
-  .hero-content p {
-    font-size: 16px;
-    color: #5a1a1a;
+  .hero-text p {
+    margin-bottom: 20px;
+    font-size: 14px;
   }
   
-  .hero-img {
+  .hero-img img{
     width: 200px;
     margin-top: 20px;
-    transition: transform 0.3s ease;
+    
   }
   
   .hero-img:hover {

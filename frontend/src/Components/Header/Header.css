@@ -1,62 +1,49 @@
-.header {
-    background-color: #b36b6b;
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
+header {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
   }
   
-  .navbar {
-    width: 90%;
+  /* Top Bar */
+  .top-bar {
+    background-color: #5c1f1f;
+    color: white;
+    padding: 8px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  
+  .top-bar a {
     color: white;
-    font-family: 'Georgia', serif;
+    margin-left: 15px;
+    text-decoration: none;
   }
   
-  .nav-links {
+  /* Main Navigation Bar */
+  .main-nav {
+    background-color: #d991a6;
+    padding: 10px 0;
     display: flex;
-    gap: 25px;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .main-nav ul {
     list-style: none;
-    font-weight: bold;
-  }
-  
-  .logo-card {
-    background-color: #f5b6c4;
-    padding: 10px 30px;
-    border-radius: 25px;
-    text-align: center;
-    border: 3px solid #fff;
-    box-shadow: 0px 0px 10px #ffedf0;
-  }
-  
-  .logo-text {
-    font-size: 28px;
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 0 0 5px #b30047;
-  }
-  
-  .logo-text span {
-    font-style: italic;
-    color: #fff0f5;
-  }
-  
-  .tagline {
-    font-size: 12px;
-    color: #440022;
-  }
-  
-  .nav-right {
     display: flex;
-    gap: 15px;
     align-items: center;
+    gap: 40px;
   }
   
-  .cart {
-    font-weight: bold;
+  .main-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
   }
   
-  .auth-links {
-    cursor: pointer;
+  .logo {
+    font-family: "Great Vibes", cursive;
+    font-size: 28px;
+    color: #fff0f5;
+    text-align: center;
   }
