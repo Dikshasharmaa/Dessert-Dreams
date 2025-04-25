@@ -5,6 +5,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Hero from './Components/Hero/Hero'
 import CakeCard from './Components/CakeCard/CakeCard'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Hero/>
       <CakeCard/>
+      <Footer/>
     </>
   )
 }
