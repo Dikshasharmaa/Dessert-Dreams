@@ -3,7 +3,7 @@ import "./CakeCard.css";
 
 import RoseCake from "../../assets/RoseCake.jpg";
 import FloralCake from "/Users/diksha/Documents/Dessert Dreams/frontend/src/assets/FloralCake.webp"; 
-import DollCake from "/Users/diksha/Documents/Dessert Dreams/frontend/src/assets/DollCake.jpeg"   
+import DollCake from "/Users/diksha/Documents/Dessert Dreams/frontend/src/assets/DollCake.jpg"   
 
 function CakeCard() {
   const cakes = [
@@ -14,7 +14,7 @@ function CakeCard() {
 
   return (
     <div className="cake-container">
-      <h3 className="card-title">OUR CAKES</h3>
+      {/* <h3 className="card-title">OUR CAKES</h3><br></br> */}
       {cakes.map((cake, index) => (
         <div key={index} className="cake-card">
           <img src={cake.image} alt={cake.title} className="cake-image" />
