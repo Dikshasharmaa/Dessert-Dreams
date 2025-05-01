@@ -1,23 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Header from './Components/Header/Header'
-import Hero from './Components/Hero/Hero'
-import CakeCard from './Components/CakeCard/CakeCard'
-import Footer from './Components/Footer/Footer'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Header from "./Components/Header/Header";
+import Products from "./Components/Products/Products";
+import Home from "./Components/Home/Home";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <Header/>
-      <Hero/>
-      <CakeCard/>
-      <Footer/>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

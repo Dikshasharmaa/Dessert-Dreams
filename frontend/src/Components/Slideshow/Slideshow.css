@@ -1,0 +1,75 @@
+/* SlideShow.css */
+
+body {
+    background-color: #fdf6f0; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slideshow-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #fff0f5; 
+}
+
+.slideshow-image {
+    width: 600px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 4px solid #ffb6c1; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.slideshow-buttons {
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.slideshow-buttons button {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.slideshow-buttons button:first-child {
+    background-color: #ff69b4; 
+    color: white;
+}
+
+.slideshow-buttons button:last-child {
+    background-color: #ff7f50; 
+    color: white;
+}
+
+.slideshow-buttons button:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #4b2c5e;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
