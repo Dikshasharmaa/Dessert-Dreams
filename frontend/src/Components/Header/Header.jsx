@@ -10,7 +10,7 @@ export default function Header() {
           <span>Cart: $</span>
         </div>
         <div className="right">
-          <span>🔍</span>
+          {/* <span>🔍</span> */}
           <a href="/login">Login</a>
           <a href="/register">Register</a>
         </div>
