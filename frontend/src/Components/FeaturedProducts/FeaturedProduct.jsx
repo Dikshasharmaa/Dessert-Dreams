@@ -27,7 +27,7 @@ const cakes = [
     image: UnicornCupcake,
   },
   {
-    name: "Kulfi",
+    name: "Malai Kulfi",
     price: 29,
     image: kulfi,
   },
@@ -42,7 +42,7 @@ export default function FeaturedCakes() {
 
       <div className="featured-grid">
         {cakes.map((cake, index) => (
-          <div className="cake-card" key={index}>
+          <div className="cake-cards" key={index}>
             <img src={cake.image} alt={cake.name} />
             <div className="price">${cake.price}</div>
             <h3>{cake.name}</h3>
