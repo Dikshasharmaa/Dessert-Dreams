@@ -52,4 +52,9 @@
     margin-top: 20px;
     font-size: 14px;
   }
-  
+  .footer-map iframe {
+    max-width: 100%;
+    border-radius: 20px;
+    width: 550px;
+    height: 300px;
+  }

@@ -30,6 +30,12 @@ body {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
+  .cake-card img {
+    width: 100%;
+    height: 400px;         
+    object-fit: cover;  
+    border-radius: 15px;  
+  }
   
   .card-title {
     font-weight: bold;
@@ -38,9 +44,10 @@ body {
   
   .cake-image {
     width: 100%;
-    height: 400px;
-    object-fit: cover;
+    height: auto;           
+    object-fit: contain;   
     border-radius: 8px;
+    max-height: 300px;      
   }
   
   .cake-text {

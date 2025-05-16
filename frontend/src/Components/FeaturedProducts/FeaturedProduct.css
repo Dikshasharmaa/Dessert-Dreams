@@ -46,8 +46,8 @@
   
   .cake-card .price {
     position: absolute;
-    top: 150px;
-    left: 50%;
+    top: 260px;
+    left: 80%;
     transform: translateX(-50%);
     background: white;
     border-radius: 50%;

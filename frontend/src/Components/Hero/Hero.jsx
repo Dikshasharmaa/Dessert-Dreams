@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="hero-content">
         <div className="hero-text">
         <h1>
-          ARE YOU LOOKING FOR SWEET, STYLISH AND <br /> DELICIOUS Desserts?
+          ARE YOU LOOKING FOR SWEET, STYLISH AND <br /> DELICIOUS DESSERTS?
         </h1>
         <p>DON'T WORRY, WE CAN HELP YOU! CHECK OUR BEST CAKE SELECTION.</p>
       </div>

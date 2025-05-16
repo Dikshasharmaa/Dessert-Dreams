@@ -7,7 +7,7 @@ function Home() {
     <>
       <Hero />
       <CakeCard />
-      <Footer />
+      
     </>
   );
 }
