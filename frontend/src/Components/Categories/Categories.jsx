@@ -4,25 +4,33 @@ import FruitTart from "../../assets/FruitTart.jpg";
 import Cupcake from "../../assets/Cupcake.webp";
 import TresLeches from "../../assets/CatresLeches.jpeg";
 import Donut from "../../assets/CaDonut.png";
+import kulfi from "../../assets/Kulfi.jpeg";
+import Cake from "../../assets/Cake.jpeg"
 
 export default function Categories() {
   const categories = [
     {
-      name: "Tarts",
+    //   name: "Tarts",
       image: FruitTart,
     },
     {
-      name: "Cupcakes",
+    //   name: "Cupcakes",
       image: Cupcake,
     },
     {
-      name: "Tres Leches",
+    //   name: "Tres Leches",
       image: TresLeches,
     },
     {
-      name: "Donuts",
+    //   name: "Donuts",
       image: Donut,
     },
+    {
+        image:kulfi,
+    },
+    {
+        image:Cake,
+    }
   ];
 
   return (
